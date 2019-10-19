@@ -4,11 +4,13 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PilgrimagePageComponent } from './pilgrimage-page/pilgrimage-page.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PilgrimagePageComponent
+    PilgrimagePageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
